@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShipsureFirst</string>
+    <string name="action_settings">Settings</string>
+  <string-array name="suiteNumber">
+    <item>SUIT0898</item>
+    <item>SUIT089992</item>
+    <item>SUIT08895</item>
+    <item>SUIT08995</item>
+    <item>SUIT08996</item>
+    <item>SUIT08998</item>
+  </string-array>
+</resources>

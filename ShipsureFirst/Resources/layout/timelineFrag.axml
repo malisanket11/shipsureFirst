@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textViewComponent"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Component" 
+				android:textStyle="bold"/>
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textViewSuiteName"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="SuiteName"
+					android:textStyle="bold"/>
+				<TextView
+					android:id="@+id/textViewSuiteType"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="SuiteType" />
+			</LinearLayout>
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout1">
+				<TextView
+					android:id="@+id/textViewArea"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Area" 
+					android:textStyle="bold"/>
+				<TextView
+					android:text="Item"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textViewItem" />
+			</LinearLayout>
+		</LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type" 
+			android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewTypeData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="whowillHandle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+			android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewStatusData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Priority" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewPriority"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Priority" 
+				android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewPriorityData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+    </LinearLayout>
+
+		<ListView
+		android:layout_width="match_parent"
+		android:layout_height="205dp"
+		android:layout_marginBottom="0.0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+		android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textViewDescriptionData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description Data" />
+    </LinearLayout>
+
+
+</LinearLayout>
